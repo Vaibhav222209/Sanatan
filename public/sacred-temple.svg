@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 780" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="500" y1="0" x2="500" y2="780" gradientUnits="userSpaceOnUse"><stop stop-color="#fbf6ec"/><stop offset=".65" stop-color="#f6e4c8"/><stop offset="1" stop-color="#fbf6ec"/></linearGradient>
+    <radialGradient id="sun" cx="0" cy="0" r="1" gradientTransform="translate(574 330) rotate(90) scale(258)" gradientUnits="userSpaceOnUse"><stop stop-color="#f0b859" stop-opacity=".45"/><stop offset=".74" stop-color="#edb969" stop-opacity=".26"/><stop offset="1" stop-color="#edb969" stop-opacity="0"/></radialGradient>
+    <linearGradient id="stone" x1="592" y1="207" x2="592" y2="569" gradientUnits="userSpaceOnUse"><stop stop-color="#d38a4d"/><stop offset="1" stop-color="#b26439"/></linearGradient>
+    <linearGradient id="tower" x1="565" y1="210" x2="660" y2="520" gradientUnits="userSpaceOnUse"><stop stop-color="#e5aa6a"/><stop offset=".5" stop-color="#c27a45"/><stop offset="1" stop-color="#a75c36"/></linearGradient>
+    <linearGradient id="water" x1="500" y1="583" x2="500" y2="780" gradientUnits="userSpaceOnUse"><stop stop-color="#e4bd8c" stop-opacity=".75"/><stop offset="1" stop-color="#fbf6ec" stop-opacity="0"/></linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".12" stop-color="#fff"/><stop offset=".94" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <pattern id="stonework" width="38" height="26" patternUnits="userSpaceOnUse"><path d="M0 0H38M0 26H38M19 0V13M0 13H38M0 13V26M38 13V26" stroke="#8d4d2e" stroke-opacity=".14" stroke-width="1"/></pattern>
+    <pattern id="jaali" width="14" height="14" patternUnits="userSpaceOnUse"><path d="m7 0 7 7-7 7-7-7Z" stroke="#f1c590" stroke-width="1"/></pattern>
+    <filter id="paper"><feTurbulence baseFrequency=".7" numOctaves="3" seed="9" stitchTiles="stitch" type="fractalNoise"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".055"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter>
+    <g id="pillar"><path d="M-7 0H7V8H5V66H9V73H-9V66H-5V8H-7Z" fill="#e6b681"/><path d="M-2 13V60M3 13V60" stroke="#9b542f" stroke-opacity=".5"/><path d="M-10 9H10M-10 64H10" stroke="#8e4b2c" stroke-width="2"/></g>
+    <g id="arch"><path d="M-22 64V21Q-22 8-9 5L0-3 9 5Q22 8 22 21V64" fill="#8d4c2e"/><path d="M-18 64V23Q-18 12-7 10L0 4 7 10Q18 12 18 23V64" fill="url(#jaali)" fill-opacity=".5" stroke="#efbd81" stroke-width="2"/></g>
+    <g id="small-spire"><path d="M-27 0Q-25-38-15-59Q-5-81 0-107Q5-81 15-59Q25-38 27 0Z" fill="#bd7845"/><path d="M-27-2H27M-24-13H24M-21-25H21M-17-37H17M-13-50H13M-9-63H9M-6-75H6" stroke="#e7ad70" stroke-width="3"/><path d="M0-107V-128" stroke="#8e4b2c" stroke-width="2"/><ellipse cy="-110" rx="10" ry="4" fill="#a65c32"/><ellipse cy="-116" rx="7" ry="3" fill="#d39350"/><path d="M-4-122Q0-130 4-122L3-117H-3Z" fill="#a65c32"/></g>
+    <g id="tree"><path d="M0 0Q5-35-2-62M-1-30-18-50M1-44 20-60" stroke="#9e7950" stroke-width="5"/><path d="M-27-45Q-50-46-44-67Q-54-86-33-94Q-33-117-10-111Q8-130 25-109Q48-112 46-91Q67-75 46-59Q45-38 25-44Q7-28-7-44Q-19-33-27-45" fill="#b3a47a"/></g>
+    <g id="bird"><path d="M-13 3Q-5-5 0 0Q5-5 13 3" stroke="#ab7a51" stroke-width="2.2" stroke-linecap="round"/></g>
+    <mask id="edge"><rect width="1000" height="780" fill="url(#fade)"/></mask>
+  </defs>
+
+  <g mask="url(#edge)">
+    <path fill="url(#sky)" d="M0 0H1000V780H0Z"/>
+    <circle cx="574" cy="330" r="258" fill="url(#sun)"/>
+    <circle cx="574" cy="330" r="193" fill="#efc783" fill-opacity=".52"/>
+    <circle cx="574" cy="330" r="211" stroke="#dba75f" stroke-opacity=".3"/>
+    <circle cx="574" cy="330" r="219" stroke="#dba75f" stroke-opacity=".14"/>
+
+    <g stroke="#d5a66b" stroke-opacity=".24" stroke-width="1.2">
+      <path d="M574 92V76M574 584V568M336 330H320M828 330H812M405 161L394 150M754 510L743 499M405 499L394 510M754 150L743 161M483 110L477 95M671 565L665 550M354 239L339 233M809 427L794 421M354 421L339 427M809 233L794 239M483 550L477 565M671 95L665 110"/>
+    </g>
+
+    <path d="M0 487Q93 423 171 468Q246 402 331 463Q403 439 456 476Q520 411 593 461Q678 397 747 453Q833 413 904 458Q954 441 1000 456V588H0Z" fill="#ddc9a8" fill-opacity=".58"/>
+    <path d="M0 511Q97 460 180 502Q247 476 314 498Q409 469 478 501Q545 467 600 491Q686 443 756 485Q860 448 1000 493V593H0Z" fill="#c6b08b" fill-opacity=".4"/>
+    <path d="M27 519Q103 492 178 515Q232 502 279 520L288 566H0Z" fill="#b2aa83" fill-opacity=".5"/>
+    <use href="#tree" x="100" y="546" transform="translate(30 130) scale(.77)" opacity=".5"/>
+    <use href="#tree" x="100" y="546" transform="translate(800 110) scale(.8)" opacity=".54"/>
+    <use href="#tree" x="100" y="546" transform="translate(840 80) scale(.85)" opacity=".4"/>
+
+    <use href="#bird" x="326" y="230"/>
+    <use href="#bird" x="359" y="213" transform="translate(72 46) scale(.8)"/>
+    <use href="#bird" x="774" y="250" transform="translate(180 50) scale(.75)"/>
+    <use href="#bird" x="787" y="263" transform="translate(180 50) scale(.75)"/>
+    <use href="#bird" x="760" y="241" transform="translate(180 50) scale(.75)"/>
+
+    <!-- Riverbank shrines, hand drawn in the Nagara temple tradition. -->
+    <g opacity=".78">
+      <path d="M178 554V485H249V554Z" fill="#d4a16b"/><path d="M173 485H254V479H173Z" fill="#b57847"/>
+      <use href="#small-spire" x="214" y="480" transform="translate(55 125) scale(.74)"/>
+      <path d="M201 554V511Q214 489 227 511V554" fill="#95633d"/>
+      <path d="M189 492V549M239 492V549" stroke="#ecc490" stroke-width="4"/>
+      <path d="M162 553H265V559H162Z" fill="#af7548"/>
+      <path d="M131 559H284V565H131Z" fill="#d2a778"/>
+    </g>
+    <g opacity=".65">
+      <path d="M288 550V486H349V550Z" fill="#bf8f5f"/><path d="M281 483H356V490H281Z" fill="#d9af7b"/>
+      <path d="M285 481Q293 455 319 453Q345 455 353 481Z" fill="#ba8959"/>
+      <path d="M316 453V435M310 440H328" stroke="#b07a4b" stroke-width="2"/>
+      <path d="M301 494V545M337 494V545" stroke="#eac798" stroke-width="5"/>
+      <path d="M308 550V509Q319 494 330 509V550" fill="#99643b"/>
+    </g>
+
+    <!-- The main temple: stepped plinth, carved mandapa and rising shikhara. -->
+    <path d="M351 560H817L850 589H313Z" fill="#b37d50"/>
+    <path d="M332 574H834V580H332ZM322 584H845V590H322Z" fill="#e1b58a"/>
+    <path d="M365 549H806V563H350V555Z" fill="#cf9660"/>
+    <path d="M385 458H789V550H385Z" fill="url(#stone)"/>
+    <path d="M385 458H789V550H385Z" fill="url(#stonework)"/>
+    <path d="M375 452H800V464H375Z" fill="#e0a66a"/>
+    <path d="M371 448H805V453H371Z" fill="#a85e33"/>
+    <path d="M383 441H795V448H383Z" fill="#d69b61"/>
+    <path d="M394 436H783V442H394Z" fill="#ba7845"/>
+
+    <!-- Side spires and the pillared mandapa roof. -->
+    <path d="M390 434Q409 424 427 389Q441 373 454 389Q477 424 495 434Z" fill="#cd8c50"/>
+    <path d="M401 425H485M410 414H478M419 402H469M427 390H459" stroke="#edbb81" stroke-width="3"/>
+    <path d="M444 375V354" stroke="#9a532d" stroke-width="2"/><ellipse cx="444" cy="375" rx="9" ry="4" fill="#ad6639"/>
+    <use href="#small-spire" x="729" y="436"/>
+    <use href="#small-spire" x="500" y="428" transform="translate(111 90) scale(.8)"/>
+    <path d="M536 434V394H663V434Z" fill="#b96f3e"/>
+
+    <!-- Curved vertical ribs and receding horizontal courses. -->
+    <path d="M531 398Q539 350 554 308Q575 253 596 218Q619 253 641 308Q657 349 665 398Z" fill="url(#tower)"/>
+    <path d="M549 397Q555 345 570 304Q584 261 596 224Q600 279 604 316Q610 356 614 397Z" fill="#f0bd7f" fill-opacity=".44"/>
+    <path d="M596 220Q576 274 568 320Q557 366 555 398M596 220Q586 275 583 320Q578 366 578 398M596 220Q606 275 609 320Q614 366 614 398M596 220Q616 274 626 320Q637 366 639 398" stroke="#8d4c29" stroke-opacity=".47" stroke-width="2"/>
+    <g stroke="#f4c891" stroke-width="3.5">
+      <path d="M534 385H662M537 373H660M540 361H657M543 349H653M547 337H649M551 325H645M555 313H640M559 301H635M564 289H630M569 277H624M575 265H618M582 253H611M589 241H604"/>
+    </g>
+    <g stroke="#a15a30" stroke-width="1.5" opacity=".8">
+      <path d="M533 390H664M536 378H660M539 366H658M541 354H655M546 342H650M549 330H646M554 318H642M558 306H638M562 294H632M567 282H627M573 270H621M579 258H615M586 246H608"/>
+    </g>
+    <path d="M526 397H670V405H526Z" fill="#a15932"/>
+    <path d="M529 405H668V414H529Z" fill="#e9b67b"/>
+    <path d="M532 414H665V420H532Z" fill="#ac6135"/>
+    <path d="M532 428H666V434H532Z" fill="#e3a36a"/>
+    <path d="M556 420H642V428H556Z" fill="#cd8b51"/>
+    <path d="M575 217Q596 202 617 217L610 227H582Z" fill="#aa6033"/>
+    <ellipse cx="596" cy="214" rx="24" ry="6" fill="#daa160"/>
+    <path d="M576 209H616M582 203H610" stroke="#a65c31" stroke-width="3"/>
+    <path d="M590 195Q596 184 602 195L601 202H591Z" fill="#c17d3f"/>
+    <path d="M596 190V133" stroke="#8b4e2b" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M598 136Q624 132 643 144L625 154 645 166Q619 160 598 168Z" fill="#c96c27"/>
+    <path d="M600 140Q618 138 635 145" stroke="#ecac63" stroke-width="1.5"/>
+
+    <!-- Carved façade and colonnade. -->
+    <g>
+      <use href="#arch" x="414" y="484"/>
+      <use href="#arch" x="476" y="484"/>
+      <use href="#arch" x="539" y="484"/>
+      <use href="#arch" x="602" y="484"/>
+      <use href="#arch" x="665" y="484"/>
+      <use href="#arch" x="728" y="484"/>
+      <use href="#pillar" x="385" y="477"/>
+      <use href="#pillar" x="445" y="477"/>
+      <use href="#pillar" x="508" y="477"/>
+      <use href="#pillar" x="571" y="477"/>
+      <use href="#pillar" x="634" y="477"/>
+      <use href="#pillar" x="697" y="477"/>
+      <use href="#pillar" x="760" y="477"/>
+    </g>
+    <path d="M379 470H791V478H379Z" fill="#d8985d"/>
+    <path d="M384 473H786" stroke="#f3c58d" stroke-width="2"/>
+    <g fill="#f1c28a"><circle cx="404" cy="466" r="2"/><circle cx="424" cy="466" r="2"/><circle cx="444" cy="466" r="2"/><circle cx="464" cy="466" r="2"/><circle cx="484" cy="466" r="2"/><circle cx="504" cy="466" r="2"/><circle cx="524" cy="466" r="2"/><circle cx="544" cy="466" r="2"/><circle cx="564" cy="466" r="2"/><circle cx="584" cy="466" r="2"/><circle cx="604" cy="466" r="2"/><circle cx="624" cy="466" r="2"/><circle cx="644" cy="466" r="2"/><circle cx="664" cy="466" r="2"/><circle cx="684" cy="466" r="2"/><circle cx="704" cy="466" r="2"/><circle cx="724" cy="466" r="2"/><circle cx="744" cy="466" r="2"/><circle cx="764" cy="466" r="2"/></g>
+    <path d="M768 485H788V549H768Z" fill="#a55f36"/>
+    <path d="M774 492H783V535H774Z" fill="url(#jaali)"/>
+
+    <!-- Front porch and the ceremonial stairs descending to the river. -->
+    <path d="M520 475Q548 460 571 432Q596 464 625 475Z" fill="#cf8c50"/>
+    <path d="M529 469H616M538 462H607M547 454H599M555 446H587" stroke="#efba7e" stroke-width="2"/>
+    <path d="M514 475H632V484H514Z" fill="#a05930"/>
+    <path d="M519 482H628V488H519Z" fill="#f0bd82"/>
+    <use href="#pillar" x="529" y="489"/>
+    <use href="#pillar" x="616" y="489"/>
+    <path d="M546 552V513Q546 499 558 496L572 486 586 496Q599 500 599 513V552" fill="#70432d"/>
+    <path d="M553 550V514Q553 504 563 502L572 495 581 502Q592 505 592 514V550" stroke="#e1a166" stroke-width="2"/>
+    <path d="M556 550V523Q572 510 588 523V550" fill="#b77a46"/>
+    <path d="M552 550H594V556H552Z" fill="#efc08b"/>
+    <path d="M531 556H616L639 601H509Z" fill="#bc895a"/>
+    <g stroke="#f0cfaa" stroke-width="3"><path d="M530 561H619M525 569H623M520 577H628M516 585H632M511 594H637M506 602H641"/></g>
+    <path d="M513 558L491 600M632 558L654 600" stroke="#a66f42" stroke-width="4"/>
+
+    <!-- Broad ghats, shallow river and broken reflections. -->
+    <path d="M59 562H350V570H59ZM42 573H338V581H42ZM26 585H326V593H26ZM804 565H953V573H804ZM819 578H968V586H819ZM833 591H985V599H833Z" fill="#d0a87c"/>
+    <path d="M59 562H350M42 573H338M26 585H326M804 565H953M819 578H968M833 591H985" stroke="#f1d6b2" stroke-width="2"/>
+    <path d="M0 599Q161 588 326 599Q468 612 638 601Q816 590 1000 604V780H0Z" fill="url(#water)"/>
+    <g stroke="#b58252" stroke-linecap="round">
+      <path d="M399 615H503M527 619H648M668 612H770M341 623H449M466 630H581M601 630H687M710 622H796M391 641H514M532 646H649M669 640H734M436 657H553M580 661H684M456 676H522M547 677H640M488 692H577M596 692H632M520 707H607" stroke-opacity=".25" stroke-width="3"/>
+      <path d="M98 610H242M52 627H132M178 635H279M104 654H189M238 665H329M709 652H840M773 673H949M662 691H732M319 700H394M151 708H248M799 714H877M388 725H495M558 739H667M254 748H333M730 757H811" stroke-opacity=".25" stroke-width="1.5"/>
+      <path d="M188 618H314M295 645H360M88 679H153M827 635H911M715 685H804M359 681H419M632 722H721M123 737H184M415 752H481" stroke="#fff5df" stroke-opacity=".7" stroke-width="2"/>
+    </g>
+
+    <!-- Quiet silhouettes of visitors and a small river boat. -->
+    <g fill="#94623c" opacity=".78"><circle cx="341" cy="550" r="3"/><path d="m338 554-2 15h10l-2-15Z"/><circle cx="354" cy="553" r="2.8"/><path d="m351 557-2 13h10l-2-13Z"/><circle cx="799" cy="549" r="3"/><path d="m797 553-2 16h9l-2-16Z"/></g>
+    <g transform="translate(795 653)"><path d="M-44 0Q0 12 47-3L36 11Q0 24-32 11Z" fill="#95623e"/><path d="M-36 2Q0 11 37 0" stroke="#d9b183" stroke-width="2"/><path d="M-7-3V-19M-12-18Q-6-23-1-16L3-3" stroke="#95623e" stroke-width="3" stroke-linecap="round"/><circle cx="-7" cy="-25" r="4" fill="#95623e"/><path d="M0-12 30 6" stroke="#94603a" stroke-width="2.5" stroke-linecap="round"/></g>
+    <path d="M740 681H816M758 687H836" stroke="#b68f63" stroke-opacity=".3" stroke-linecap="round"/>
+
+    <!-- A translucent paper grain unifies the illustration. -->
+    <rect width="1000" height="780" fill="#fbf6ec" opacity=".14" filter="url(#paper)"/>
+  </g>
+</svg>
